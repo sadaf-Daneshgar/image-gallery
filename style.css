@@ -20,23 +20,28 @@
   transition: filter 0.3s;
 }
 
-.card-img-top:hover {
-  filter: brightness(50%);
+.image {
+  width: 100%;
+  height: 185px;
 }
 
-.image-name:hover {
-  cursor: pointer;
+.pagination {
+  margin: 30px 8rem;
+}
+
+.card-img-top:hover {
+  filter: brightness(50%);
 }
 
 .image-name {
   position: relative;
   top: -40%;
   left: 45%;
-  border: 2px solid #FFFFFF;
+  border: 2px solid #fff;
   padding: 12px;
   margin: 12px;
   transform: translate(-50%, -50%);
-  color: #FFFFFF;
+  color: #fff;
   font-size: 20px;
   display: none;
 }
@@ -45,6 +50,7 @@
   background: rgba(0, 0, 0, 0.5);
   backdrop-filter: blur(2px);
   background-blend-mode: multiply;
+  cursor: pointer;
 }
 
 .btns {
